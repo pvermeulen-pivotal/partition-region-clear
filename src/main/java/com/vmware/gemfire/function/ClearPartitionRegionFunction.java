@@ -9,7 +9,7 @@ import org.apache.geode.cache.execute.RegionFunctionContext;
 import org.apache.geode.cache.partition.PartitionRegionHelper;
 
 @Slf4j
-public class ClearPartitionRegion implements Function {
+public class ClearPartitionRegionFunction implements Function {
 
 	public void execute(FunctionContext context) {
 		if (log.isDebugEnabled())
